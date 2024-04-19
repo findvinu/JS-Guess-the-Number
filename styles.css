@@ -1,0 +1,59 @@
+body{
+  background-color: #333;
+  color: #fff;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper{
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #444;
+  padding: 30px 50px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.effect{
+  background-image: url('./6SSp.gif');
+  /* background-image: url('./4A5.gif'); */
+}
+input{
+  height: 30px;
+  padding-left: 20px;
+  background: #585757;
+  border: none;
+  border-bottom: 1px solid #6a6a6a;
+  color: #fff;
+
+}
+
+input[type="submit"]{
+  margin-left: 135px;
+  margin-top: 20px;
+}
+
+.resultParas{
+  margin-left: 135px;
+}
+
+label{
+  width: 130px;
+    display: inline-block;
+}
+
+button{
+  border: none;
+  background: #727272;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+  color: #fff;
+  box-shadow: 2px 2px 1px #000;
+  margin-bottom: 20px;
+  margin-left: 110px;
+}
+
+#weight-guide, #resultMsg, #result{
+  margin-left: 110px;  
+}

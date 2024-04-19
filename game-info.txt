@@ -1,0 +1,42 @@
+1 - create random number beetween 1 to 100 help of Math object.
+    const randomNum = parseInt(Math.random() * 100 + 1);
+
+2 - select all selecters with help of querySelector
+    submit, input, prevGuess, lastResult, lowOrHigh, startOver(Result Full Block)
+
+3 - create one pera 
+    const p = document.createElement('p')
+
+4 - create one blank array variable - 
+    let prevGuess = [];
+
+5 - how many guess user kar chuka hai limit not more than 10
+    let numGuess = 1
+
+6 - always when design game create playGame variable
+    let playGame = true
+
+7 - first create validateGuess like number hi de, 1 se less and 100 se greater 
+
+8 - checkGuess like we can show user guess value low or high will show message
+
+9 - guess display - 
+
+10 - displayMessage - direct intract with DOM, userValue empty, add guess and   
+    reduce numbers all manipulation inside dome.
+
+11 - endGame - end game
+
+12 - newGame - start new game
+
+events - 
+// attachedEvent
+// type, timestemp, defaultPrevented
+// target, toElement, srcElement, currentTarget
+// clientX, clientY, offset, screenX, screenY
+// altkey, ctrlkey, shiftkye, keyCode
+
+event prapogation - event bubbling, event capturing
+
+stopPrapgation() - to stop prapogate event only click inside.
+preventDefault() - no going to click on link
